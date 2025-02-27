@@ -50,7 +50,7 @@ mdp.send_keys("M0t2p@ss3")
 envoyer = driver.find_element(By.XPATH, '//*[@id="accountInfo"]/div[6]/div[2]/button')
 driver.execute_script("arguments[0].scrollIntoView();", envoyer)
 
-time.sleep(10000)
+time.sleep(2)
 
 envoyer.click()
 
